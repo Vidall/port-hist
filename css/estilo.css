@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/*Cabeça*/
+body {
+    height: 100vh;
+    background: rgb(80,17,6);
+    background: linear-gradient(180deg, rgba(80,17,6,1) 0%, rgba(164,21,21,1) 46%, rgba(134,62,114,1) 75%, rgba(255,0,185,1) 100%);
+    
+}
+
+header h1 {    
+    color: #fff;
+
+}
+
+.text-center {
+    color: white;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.nav {
+    color: #fff;
+}
+
+.container-fotos {
+    margin-top: 50px;
+    background-image: url("../imagens/coracao.png");
+    
+}
+.nav-link {
+    color: white;
+}
+img {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.521);
+    margin: 2px;
+    
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    justify-content: center;
+}
